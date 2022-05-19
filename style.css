@@ -1,0 +1,91 @@
+body {
+	background-image: url(back1.jpg);
+	margin: auto;
+	background-size: 100% 100%;
+}
+
+.menu {
+	font-family: 'comic sans ms';
+	font-weight: bold;
+	height: 80px;
+	font-weight: 100%;
+	background-color: black;
+	font-size: 15px;
+}
+
+label {
+	margin-left: 50px;
+	float: left;
+}
+
+.menu ul {
+	float: right;
+	padding: 5px;
+	background: none;
+	display: block;
+	margin: 0px;
+}
+
+.menu ul li {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.menu ul li a:hover {
+	display: block;
+	color: lightsteelblue;
+	background: #222;
+}
+
+.menu ul li .dropdown {
+	display: none;
+}
+
+.menu ul li:hover .dropdown {
+	display: block;
+	background: black;
+	position: absolute;
+	padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+	display: block;
+}
+
+h1 {
+	color : white;
+	font-size: 50px;
+	font-family: 'comic sans ms';
+}
+
+.nav {
+	margin-top: 250px;
+	text-align: center;
+	font-family: 'comic sans ms';
+	width: 100%;
+	font-size: 20px;
+    margin-bottom: 250px;
+}
+
+
+footer {
+	margin-top: 100px;
+	background-color: black;
+	height: 20px;
+}
+
+.cr {
+	color: whitesmoke;
+	text-align: center;
+}
+
+
+
